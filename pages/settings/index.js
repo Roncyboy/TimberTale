@@ -4,7 +4,7 @@ import Image from "next/image"
 import { BigBox, Settings, SetText, SetBox, BSwitch, ButBox } from "../../comps/settings"
 import Slider from "../../public/slider.svg"
 import { useRouter } from "next/router"
-import TextSizing from "../../public/TextSizing.svg"
+import TextSizing from "../../public/textsizing.svg"
 
 
 export default function SettingsOverlay () {
@@ -31,7 +31,7 @@ export default function SettingsOverlay () {
             <SetLine/>
             <SetBox> 
                 Text Size 
-                <BSwitch><Image src={textsizing}
+                <BSwitch><Image src={TextSizing}
                 width={100}
                 heigh={50}/></BSwitch> 
             </SetBox>
