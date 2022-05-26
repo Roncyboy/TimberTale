@@ -9,7 +9,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination } from "swiper";
  
-export default () => {
+export default function sliderSwiper() {
   const [settingsOpen, setSettingsOpen] = useState(false);
   const r = useRouter();
 
