@@ -4,7 +4,7 @@ import Image from "next/image"
 import { BigBox, SettingsItemWrapper, SetText, SetBox, BSwitch, ButBox } from "../../comps/settings"
 import Slider from "../../public/slider.svg"
 import { useRouter } from "next/router"
-import TextSizing from "../../public/textizing.svg"
+import TextSizing from "../../public/textsizing.svg"
 
 
 export default function SettingsOverlay () {
