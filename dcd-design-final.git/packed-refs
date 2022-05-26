@@ -1,0 +1,7 @@
+# pack-refs with: peeled fully-peeled sorted 
+83d9e973bbf0574aa18ae396b1764aee57b34fee refs/heads/main
+65e40ca9a2e44c9471b22eaabd228b678e0ca268 refs/heads/qfeedback
+61c5137a428d56020f14a6d179f508e97a903785 refs/heads/routechange
+bf3e1ef20c9b5371f503ebd301da02b91970716c refs/heads/svggraphics
+eb065910844bed320f52de4ea47212cbaf3ff947 refs/heads/swiper
+cae58a567623c956128005a47d8b65e6380e6607 refs/heads/swiperupdate

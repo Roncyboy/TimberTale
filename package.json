@@ -1,0 +1,26 @@
+{
+  "name": "timbertale",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "framer-motion": "^6.3.0",
+    "next": "12.1.4",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "styled-components": "^5.3.5",
+    "swiper": "^8.1.1",
+    "typeface-poppins": "^1.1.13",
+    "typeface-signika": "^1.1.13",
+    "use-sound": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.4"
+  }
+}
