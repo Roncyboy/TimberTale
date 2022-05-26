@@ -31,7 +31,7 @@ export default function SettingsOverlay () {
             <SetLine/>
             <SetBox> 
                 Text Size 
-                <BSwitch><Image src={TextSizing}
+                <BSwitch><Image src={textsizing}
                 width={100}
                 heigh={50}/></BSwitch> 
             </SetBox>

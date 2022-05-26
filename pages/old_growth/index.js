@@ -4,7 +4,7 @@ import { ImgBackground } from "../../comps/Display";
 import { WelcomeOG } from "../../comps/WelcomeCard";
 import { useState } from "react";
 import LifeHolder from "../../comps/Lives";
-import { SetButton, SettingsModal, SettingsBackdrop } from "../../comps/Settings";
+import { SetButton, SettingsModal, SettingsBackdrop } from "../../comps/settings";
 
 export default function OldGrowth() {
   const [settingsOpen, setSettingsOpen] = useState(false);

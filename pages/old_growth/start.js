@@ -7,7 +7,7 @@ import { useState } from "react";
 import styled from "styled-components";
 import { lives, jack } from "../../data/lives";
 import { AnimatePresence, motion } from "framer-motion";
-import { SettingsModal, SetButton, SettingsBackdrop } from "../../comps/Settings";
+import { SettingsModal, SetButton, SettingsBackdrop } from "../../comps/settings";
 
 
 const QuestionBox = styled(motion.div)`
