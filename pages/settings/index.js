@@ -1,19 +1,19 @@
 import { FSBackground, SetLine } from "../../comps/Display"
 import { ShortButton } from "../../comps/Button"
 import Image from "next/image"
-import { BigBox, Settings, SetText, SetBox, BSwitch, ButBox } from "../../comps/settings"
+import { BigBox, SettingsItemWrapper, SetText, SetBox, BSwitch, ButBox } from "../../comps/settings"
 import Slider from "../../public/slider.svg"
 import { useRouter } from "next/router"
-import TextSizing from "../../public/textsizing.svg"
+import TextSizing from "../../public/textizing.svg"
 
 
-export default function settings () {
+export default function SettingsOverlay () {
     const r = useRouter();
     
     return (
         <FSBackground>
        <BigBox>
-        <Settings>
+        <SettingsItemWrapper>
             <SetText>
             <SetBox>
                 Music
@@ -41,7 +41,7 @@ export default function settings () {
                 heigh={50}/></BSwitch> </SetBox>
             </SetText>
             <SetLine/>
-        </Settings>
+        </SettingsItemWrapper>
         <ButBox>
         <ShortButton onClick={()=>r.push("/")}>Home</ShortButton>
         <ShortButton onClick={()=>r.back()}>Continue</ShortButton>

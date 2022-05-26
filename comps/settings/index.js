@@ -46,7 +46,7 @@ display: flex;
 justify-content: flex-end;
 `;
 
-const SettingItemWrapper = styled.div`
+export const SettingItemWrapper = styled.div`
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
