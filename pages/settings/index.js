@@ -7,7 +7,7 @@ import { useRouter } from "next/router"
 import TextSizing from "../../public/textsizing.svg"
 
 
-export default function SettingsOverlay () {
+export default function settings () {
     const r = useRouter();
     
     return (
