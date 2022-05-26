@@ -113,7 +113,7 @@ margin-left: -50px;
 }
 .swiper-slide-active > button {
   opacity: 100;
-  margin-left: -5px;
+  /* margin-left: -5px; */
 }
 
 .swiper-wrapper {
